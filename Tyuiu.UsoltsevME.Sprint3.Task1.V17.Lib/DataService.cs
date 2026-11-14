@@ -1,4 +1,4 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint3;
+using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.UsoltsevME.Sprint3.Task1.V17.Lib
 {
@@ -12,7 +12,7 @@ namespace Tyuiu.UsoltsevME.Sprint3.Task1.V17.Lib
 
             if (Math.Abs(cosX) < 0.0000001)
             {
-                throw new ArgumentException("Невозможно вычислить: cos(x) равен нулю.");
+                throw new ArgumentException("Косинус не должен быть равен нулю.");
             }
 
             int step = startValue <= stopValue ? 1 : -1;
@@ -21,10 +21,10 @@ namespace Tyuiu.UsoltsevME.Sprint3.Task1.V17.Lib
                  step > 0 ? k <= stopValue : k >= stopValue;
                  k += step)
             {
-                result *= Math.Pow(2 / cosX, k);
+                result = result * Math.Pow(2 / cosX, k);
             }
 
-            return result;
+            return Math.Round(result, 3);
         }
     }
 }
