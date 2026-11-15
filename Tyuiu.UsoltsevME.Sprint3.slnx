@@ -14,4 +14,9 @@
     <Project Path="Tyuiu.UsoltsevME.Sprint3.Task2.V19.Test/Tyuiu.UsoltsevME.Sprint3.Task2.V19.Test.csproj" Id="8375219d-52e0-4e76-8cae-1b98b9530d67" />
     <Project Path="Tyuiu.UsoltsevME.Sprint3.Task2.V19/Tyuiu.UsoltsevME.Sprint3.Task2.V19.csproj" Id="522eaa00-0b30-470c-9690-a1a7869df46d" />
   </Folder>
+  <Folder Name="/Task3/">
+    <Project Path="Tyuiu.UsoltsevME.Sprint3.Task3.V23.Lib/Tyuiu.UsoltsevME.Sprint3.Task3.V23.Lib.csproj" Id="5c6afaca-c5aa-4040-be26-d41d281a7750" />
+    <Project Path="Tyuiu.UsoltsevME.Sprint3.Task3.V23.Test/Tyuiu.UsoltsevME.Sprint3.Task3.V23.Test.csproj" Id="cbef96aa-11b8-4b6a-8ad0-eb42c6e6c88b" />
+    <Project Path="Tyuiu.UsoltsevME.Sprint3.Task3.V23/Tyuiu.UsoltsevME.Sprint3.Task3.V23.csproj" Id="f6c2857e-a6c3-4e8c-9c80-ea149561b5b6" />
+  </Folder>
 </Solution>
