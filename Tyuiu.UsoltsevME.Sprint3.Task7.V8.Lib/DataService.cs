@@ -23,7 +23,7 @@ namespace Tyuiu.UsoltsevME.Sprint3.Task7.V8.Lib
             {
                 if (2 - x == 0)
                 {
-                    result[index] = 0.6;
+                    result[index] = 0.0;
                 }
                 else
                 {
