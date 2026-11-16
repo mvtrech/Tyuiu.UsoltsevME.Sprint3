@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using tyuiu.cources.programming.interfaces.Sprint3;
 
@@ -21,20 +21,18 @@ namespace Tyuiu.UsoltsevME.Sprint3.Task7.V8.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                double division;
-
                 if (2 - x == 0)
                 {
-                    division = 0;
+                    result[index] = 0.6;
                 }
                 else
                 {
-                    division = (Math.Cos(x) + 1) / (2 - x);
+                    double y = Math.Sin(x)
+                        + (Math.Cos(x) + 1) / (2 - x)
+                        + 2 * x;
+
+                    result[index] = Math.Round(y, 2);
                 }
-
-                double y = Math.Sin(x) + division + 2 * x;
-
-                result[index] = Math.Round(y, 2);
 
                 index++;
             }
